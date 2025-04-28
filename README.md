@@ -10,18 +10,19 @@ A comprehensive platform for managing Twitch and Discord communities, featuring 
 2. [Features](#features)
 3. [Architecture](#architecture)
 4. [Service Overview](#service-overview)
-5. [Project Structure](#project-structure)
-6. [System Requirements](#system-requirements)
-7. [Getting Started](#getting-started)
+5. [Complete Documentation Structure](#complete-documentation-structure)
+6. [Project Structure](#project-structure)
+7. [System Requirements](#system-requirements)
+8. [Getting Started](#getting-started)
     - [Quick Start (Docker Compose)](#quick-start-docker-compose)
     - [Manual Start (Development)](#manual-start-development)
-8. [Configuration](#configuration)
-9. [API Documentation](#api-documentation)
-10. [Development](#development)
-11. [Troubleshooting](#troubleshooting)
-12. [Contributing](#contributing)
-13. [Support](#support)
-14. [License](#license)
+9. [Configuration](#configuration)
+10. [API Documentation](#api-documentation)
+11. [Development](#development)
+12. [Troubleshooting](#troubleshooting)
+13. [Contributing](#contributing)
+14. [Support](#support)
+15. [License](#license)
 
 ---
 
@@ -69,6 +70,28 @@ NexusCore uses a microservices architecture. Each service handles a specific dom
 
 ---
 
+## Complete Documentation Structure
+
+The project documentation is organized hierarchically to provide a clear understanding of each component:
+
+### Core Documentation
+- [Main README](./README.md) - Project overview, setup, and architecture
+- [Frontend README](./frontend/README.md) - Frontend application details and setup
+
+### Service Documentation
+- [API Gateway](./services/api-gateway/README.md) - API routing and management
+- [Auth Service](./services/auth-service/README.md) - Authentication and user management
+- [Bot Service](./services/bot-service/README.md) - Twitch/Discord bot functionality
+- [Config Service](./services/config-service/README.md) - Platform configuration
+- [Scheduler Service](./services/scheduler-service/README.md) - Task scheduling
+- [Notification Service](./services/notification-service/README.md) - Notification system
+- [Analytics Service](./services/analytics-service/README.md) - Analytics and reporting
+
+### Frontend Component Documentation
+- [Charts Components](./frontend/src/components/charts/README.md) - Chart components documentation
+
+---
+
 ## Project Structure
 
 ```
@@ -111,7 +134,7 @@ NexusCore uses a microservices architecture. Each service handles a specific dom
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/NYOGamesCOM/NexusCore.git
-   cd twitchbot
+   cd NexusCore
    ```
 
 2. **Copy environment files:**
